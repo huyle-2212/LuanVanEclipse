@@ -17,7 +17,7 @@ public class Server {
     public void Process() {
 
         try {
-            serverSocket = new ServerSocket(22) ;
+            serverSocket = new ServerSocket(9999) ;
             System.out.println("Server Starting...");
             IUser iUser = new ServerHandler();
             while (true) {
